@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Belle Martinée – Unika plagg och mode med personlig design. Skräddarsydda kläder i hög kvalitet. Snabb leverans, trygg betalning och 14 dagars ångerrätt." />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Belle Martinée – Mode med din personliga touch" />
+  <meta property="og:description" content="Unika plagg och kläder med personlig design. Skräddarsydda kläder i hög kvalitet." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#1a1a2e" />
+
+  <title>Belle Martinée – Mode med din personliga touch</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Skip to main content (accessibility) -->
+  <a class="skip-link" href="#main-content">Hoppa till innehållet</a>
+
+  <!-- ============================
+       COOKIE BANNER (ePrivacy)
+       ============================ -->
+  <div id="cookie-banner" role="dialog" aria-label="Cookie-inställningar" aria-live="polite">
+    <div class="cookie-banner__inner">
+      <p class="cookie-banner__text">
+        Vi använder cookies för att förbättra din upplevelse, analysera trafik och visa personaliserat innehåll.
+        Läs mer i vår <a href="cookies.html">cookiepolicy</a> och <a href="privacy-policy.html">integritetspolicy</a>.
+      </p>
+      <div class="cookie-banner__actions">
+        <button id="cookie-necessary" class="btn btn--secondary btn--sm">Endast nödvändiga</button>
+        <button id="cookie-accept-all" class="btn btn--primary btn--sm">Acceptera alla</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================
+       NAVIGATION
+       ============================ -->
+  <header class="site-header" role="banner">
+    <nav class="nav" aria-label="Huvudnavigation">
+      <a href="index.html" class="nav__logo" aria-label="Belle Martinée startsida">
+        Belle<span>Martinée</span>
+      </a>
+
+      <ul class="nav__menu" role="list">
+        <li><a href="#kollektionen">Kollektionen</a></li>
+        <li><a href="#anpassa">Anpassa</a></li>
+        <li><a href="#om-oss">Om oss</a></li>
+        <li><a href="contact.html">Kontakt</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <a href="#kollektionen" class="btn btn--primary btn--sm">Shoppa nu</a>
+        <button class="nav__cart" aria-label="Öppna varukorg">
+          🛒
+          <span class="nav__cart-count" style="display:none;" aria-label="Antal varor i varukorg">0</span>
+        </button>
+        <button class="nav__toggle" aria-label="Öppna meny" aria-expanded="false" aria-controls="mobile-nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile Navigation Overlay -->
+  <div id="nav-overlay" class="cart-overlay" aria-hidden="true"></div>
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Mobilnavigation" aria-hidden="true">
+    <div class="mobile-nav__header">
+      <span class="mobile-nav__logo">Belle<span>Martinée</span></span>
+      <button id="mobile-nav-close" class="mobile-nav__close" aria-label="Stäng meny">✕</button>
+    </div>
+    <ul class="mobile-nav__links" role="list">
+      <li><a href="#kollektionen">Kollektionen</a></li>
+      <li><a href="#anpassa">Anpassa</a></li>
+      <li><a href="#om-oss">Om oss</a></li>
+      <li><a href="contact.html">Kontakt</a></li>
+      <li><a href="privacy-policy.html">Integritetspolicy</a></li>
+      <li><a href="terms.html">Köpvillkor</a></li>
+    </ul>
+  </nav>
+
+  <!-- ============================
+       MAIN CONTENT
+       ============================ -->
+  <main id="main-content">
+
+    <!-- HERO -->
+    <section class="hero" aria-label="Välkomstsektionen">
+      <div class="hero__inner">
+        <div class="hero__content">
+          <div class="hero__tag">✨ Skräddarsydda plagg med själ</div>
+          <h1 class="hero__title">
+            Mode som<br />
+            berättar din <span class="highlight">historia</span>
+          </h1>
+          <p class="hero__description">
+            Belle Martinée skapar unika plagg och kläder som är helt och hållet dina.
+            Välj din favoritmodell, ladda upp din design och vi syr ihop ett plagg
+            du kommer bära med stolthet.
+          </p>
+          <div class="hero__actions">
+            <a href="#kollektionen" class="btn btn--primary">Utforska kollektionen</a>
+            <a href="#anpassa" class="btn btn--secondary">Skapa ditt plagg</a>
+          </div>
+          <div class="hero__stats">
+            <div class="hero__stat">
+              <h3>10 000+</h3>
+              <p>Nöjda kunder</p>
+            </div>
+            <div class="hero__stat">
+              <h3>200+</h3>
+              <p>Plaggmodeller</p>
+            </div>
+            <div class="hero__stat">
+              <h3>4.9 ★</h3>
+              <p>Genomsnittsbetyg</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__mockup">
+            <div class="mockup-card">
+              <div class="mockup-card__grid">
+                <div class="mockup-item mockup-color-1">
+                  <div class="mockup-item__label">
+                    <span>Bästsäljare</span>
+                    <strong>Signature T-shirt</strong>
+                  </div>
+                </div>
+                <div class="mockup-item mockup-color-2">
+                  <div class="mockup-item__label">
+                    <span>Ny</span>
+                    <strong>Lyx Hoodie</strong>
+                  </div>
+                </div>
+                <div class="mockup-item mockup-color-3">
+                  <div class="mockup-item__label">
+                    <span>Populär</span>
+                    <strong>Oversize Sweatshirt</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="floating-badge floating-badge--1">
+              <span class="floating-badge__icon">🚀</span>
+              Leverans 2–5 dagar
+            </div>
+            <div class="floating-badge floating-badge--2">
+              <span class="floating-badge__icon">🔒</span>
+              Trygg betalning
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- USP STRIP -->
+    <div class="usp-strip" aria-label="Fördelar">
+      <div class="usp-strip__inner">
+        <div class="usp-item">
+          <span class="usp-item__icon">🚚</span>
+          <span>Gratis frakt över 500 kr</span>
+        </div>
+        <div class="usp-item">
+          <span class="usp-item__icon">↩️</span>
+          <span>14 dagars ångerrätt</span>
+        </div>
+        <div class="usp-item">
+          <span class="usp-item__icon">🎨</span>
+          <span>Personlig design</span>
+        </div>
+        <div class="usp-item">
+          <span class="usp-item__icon">♻️</span>
+          <span>GOTS-certifierat tyg</span>
+        </div>
+        <div class="usp-item">
+          <span class="usp-item__icon">🔒</span>
+          <span>Säker betalning</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUCTS / KOLLEKTIONEN -->
+    <section class="section" id="kollektionen">
+      <div class="container">
+        <div class="section__header fade-in">
+          <span class="section__tag">Vår kollektion</span>
+          <h2 class="section__title">Populära plagg</h2>
+          <p class="section__subtitle">
+            Varje plagg sys med GOTS-certifierat ekologiskt tyg och professionell tryckteknik.
+            Alla priser inkl. 25&nbsp;% moms.
+          </p>
+        </div>
+
+        <div class="products-grid">
+
+          <!-- Product 1 -->
+          <article class="product-card fade-in" aria-label="Signature T-shirt">
+            <div class="product-card__image">
+              <div class="product-card__img-placeholder" style="background:linear-gradient(135deg,#c9a84c,#f5e6b8)">👕</div>
+              <span class="product-card__badge">Bästsäljare</span>
+              <button class="product-card__wishlist" aria-label="Spara till önskelista">♡</button>
+            </div>
+            <div class="product-card__body">
+              <p class="product-card__category">T-shirts</p>
+              <h3 class="product-card__name">Signature T-shirt</h3>
+              <div class="product-card__rating">
+                <span class="stars">★★★★★</span>
+                <span class="rating-count">(248)</span>
+              </div>
+              <div class="product-card__footer">
+                <div class="product-card__price">
+                  <span class="price-current">349 kr</span>
+                  <span class="price-vat">Inkl. 25% moms</span>
+                </div>
+                <button class="btn--add-cart"
+                  data-add-cart
+                  data-product-id="tshirt-signature"
+                  data-product-name="Signature T-shirt"
+                  data-product-price="349"
+                  data-product-emoji="👕"
+                  data-product-variant="Vit, M"
+                  aria-label="Lägg Signature T-shirt i varukorgen">
+                  + Lägg till
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 2 -->
+          <article class="product-card fade-in" aria-label="Lyx Hoodie">
+            <div class="product-card__image">
+              <div class="product-card__img-placeholder" style="background:linear-gradient(135deg,#1a1a2e,#4a4a6e)">🧥</div>
+              <button class="product-card__wishlist" aria-label="Spara till önskelista">♡</button>
+            </div>
+            <div class="product-card__body">
+              <p class="product-card__category">Hoodies</p>
+              <h3 class="product-card__name">Lyx Hoodie</h3>
+              <div class="product-card__rating">
+                <span class="stars">★★★★★</span>
+                <span class="rating-count">(183)</span>
+              </div>
+              <div class="product-card__footer">
+                <div class="product-card__price">
+                  <span class="price-current">649 kr</span>
+                  <span class="price-vat">Inkl. 25% moms</span>
+                </div>
+                <button class="btn--add-cart"
+                  data-add-cart
+                  data-product-id="hoodie-lyx"
+                  data-product-name="Lyx Hoodie"
+                  data-product-price="649"
+                  data-product-emoji="🧥"
+                  data-product-variant="Svart, M">
+                  + Lägg till
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 3 -->
+          <article class="product-card fade-in" aria-label="Oversize Sweatshirt">
+            <div class="product-card__image">
+              <div class="product-card__img-placeholder" style="background:linear-gradient(135deg,#e94560,#ff9aaa)">👚</div>
+              <span class="product-card__badge">Ny</span>
+              <button class="product-card__wishlist" aria-label="Spara till önskelista">♡</button>
+            </div>
+            <div class="product-card__body">
+              <p class="product-card__category">Sweatshirts</p>
+              <h3 class="product-card__name">Oversize Sweatshirt</h3>
+              <div class="product-card__rating">
+                <span class="stars">★★★★★</span>
+                <span class="rating-count">(97)</span>
+              </div>
+              <div class="product-card__footer">
+                <div class="product-card__price">
+                  <span class="price-current">549 kr</span>
+                  <span class="price-vat">Inkl. 25% moms</span>
+                </div>
+                <button class="btn--add-cart"
+                  data-add-cart
+                  data-product-id="sweatshirt-oversize"
+                  data-product-name="Oversize Sweatshirt"
+                  data-product-price="549"
+                  data-product-emoji="👚"
+                  data-product-variant="Rosa, M">
+                  + Lägg till
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 4 -->
+          <article class="product-card fade-in" aria-label="Klassiska Joggers">
+            <div class="product-card__image">
+              <div class="product-card__img-placeholder" style="background:linear-gradient(135deg,#43e97b,#1a5c3a)">👖</div>
+              <button class="product-card__wishlist" aria-label="Spara till önskelista">♡</button>
+            </div>
+            <div class="product-card__body">
+              <p class="product-card__category">Byxor</p>
+              <h3 class="product-card__name">Klassiska Joggers</h3>
+              <div class="product-card__rating">
+                <span class="stars">★★★★★</span>
+                <span class="rating-count">(156)</span>
+              </div>
+              <div class="product-card__footer">
+                <div class="product-card__price">
+                  <span class="price-current">449 kr</span>
+                  <span class="price-vat">Inkl. 25% moms</span>
+                  <span class="price-old">549 kr</span>
+                </div>
+                <button class="btn--add-cart"
+                  data-add-cart
+                  data-product-id="joggers-classic"
+                  data-product-name="Klassiska Joggers"
+                  data-product-price="449"
+                  data-product-emoji="👖"
+                  data-product-variant="Grå, M">
+                  + Lägg till
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 5 -->
+          <article class="product-card fade-in" aria-label="Crop Top Linne">
+            <div class="product-card__image">
+              <div class="product-card__img-placeholder" style="background:linear-gradient(135deg,#fa709a,#fee140)">🩱</div>
+              <button class="product-card__wishlist" aria-label="Spara till önskelista">♡</button>
+            </div>
+            <div class="product-card__body">
+              <p class="product-card__category">Linnen</p>
+              <h3 class="product-card__name">Crop Top Linne</h3>
+              <div class="product-card__rating">
+                <span class="stars">★★★★☆</span>
+                <span class="rating-count">(74)</span>
+              </div>
+              <div class="product-card__footer">
+                <div class="product-card__price">
+                  <span class="price-current">299 kr</span>
+                  <span class="price-vat">Inkl. 25% moms</span>
+                </div>
+                <button class="btn--add-cart"
+                  data-add-cart
+                  data-product-id="croptop-linne"
+                  data-product-name="Crop Top Linne"
+                  data-product-price="299"
+                  data-product-emoji="🩱"
+                  data-product-variant="Vit, S">
+                  + Lägg till
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 6 -->
+          <article class="product-card fade-in" aria-label="Zip-up Jacka">
+            <div class="product-card__image">
+              <div class="product-card__img-placeholder" style="background:linear-gradient(135deg,#a18cd1,#3a1c71)">🧣</div>
+              <span class="product-card__badge">Populär</span>
+              <button class="product-card__wishlist" aria-label="Spara till önskelista">♡</button>
+            </div>
+            <div class="product-card__body">
+              <p class="product-card__category">Jackor</p>
+              <h3 class="product-card__name">Zip-up Jacka</h3>
+              <div class="product-card__rating">
+                <span class="stars">★★★★★</span>
+                <span class="rating-count">(211)</span>
+              </div>
+              <div class="product-card__footer">
+                <div class="product-card__price">
+                  <span class="price-current">799 kr</span>
+                  <span class="price-vat">Inkl. 25% moms</span>
+                </div>
+                <button class="btn--add-cart"
+                  data-add-cart
+                  data-product-id="jacket-zipup"
+                  data-product-name="Zip-up Jacka"
+                  data-product-price="799"
+                  data-product-emoji="🧣"
+                  data-product-variant="Lila, M">
+                  + Lägg till
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div><!-- .products-grid -->
+      </div>
+    </section>
+
+    <!-- CUSTOMIZE SECTION -->
+    <section class="customize section" id="anpassa" aria-labelledby="customize-heading">
+      <div class="container">
+        <div class="customize__inner">
+          <div class="customize__text-content fade-in">
+            <span class="customize__tag">Enkelt som ett, två, tre</span>
+            <h2 id="customize-heading" class="customize__title">Skapa ditt egna unika plagg</h2>
+            <p class="customize__text">
+              Med Belle Martinées designverktyg skapar du precis det plagg du drömt om.
+              Ladda upp din bild, välj typ av klädesplagg, färg och storlek –
+              vi producerar och levererar direkt till din dörr.
+            </p>
+            <div class="customize__steps">
+              <div class="step">
+                <div class="step__num">1</div>
+                <div class="step__content">
+                  <h4>Välj ditt plagg</h4>
+                  <p>T-shirts, hoodies, sweatshirts, byxor, linnen och mycket mer.</p>
+                </div>
+              </div>
+              <div class="step">
+                <div class="step__num">2</div>
+                <div class="step__content">
+                  <h4>Ladda upp din design</h4>
+                  <p>Använd din egna bild, logotyp eller välj bland våra exklusiva mönster.</p>
+                </div>
+              </div>
+              <div class="step">
+                <div class="step__num">3</div>
+                <div class="step__content">
+                  <h4>Vi producerar &amp; levererar</h4>
+                  <p>Hög kvalitet, snabb produktion och leverans inom 2–5 arbetsdagar.</p>
+                </div>
+              </div>
+            </div>
+            <a href="contact.html" class="btn btn--primary">Starta din design →</a>
+          </div>
+
+          <div class="customize__visual fade-in">
+            <div class="customize__demo">
+              <div class="demo-product">
+                <span class="demo-product__icon">👕</span>
+                <span class="demo-product__text">Belle Martinée</span>
+              </div>
+              <div class="demo-controls">
+                <div class="demo-control">
+                  <label>Välj färg</label>
+                  <div class="demo-colors">
+                    <button class="color-dot active" data-color="linear-gradient(135deg,#c9a84c,#f5e6b8)" style="background:#c9a84c" aria-label="Guld"></button>
+                    <button class="color-dot" data-color="linear-gradient(135deg,#e94560,#ff9aaa)" style="background:#e94560" aria-label="Rosa/röd"></button>
+                    <button class="color-dot" data-color="linear-gradient(135deg,#1a1a2e,#4a4a6e)" style="background:#1a1a2e" aria-label="Mörkblå"></button>
+                    <button class="color-dot" data-color="linear-gradient(135deg,#f8f9fa,#dee2e6)" style="background:#dee2e6" aria-label="Vit/ljusgrå"></button>
+                    <button class="color-dot" data-color="linear-gradient(135deg,#a18cd1,#3a1c71)" style="background:#a18cd1" aria-label="Lila"></button>
+                  </div>
+                </div>
+                <div class="demo-control">
+                  <label>Välj storlek</label>
+                  <div class="demo-sizes">
+                    <button class="size-btn">XS</button>
+                    <button class="size-btn">S</button>
+                    <button class="size-btn active">M</button>
+                    <button class="size-btn">L</button>
+                    <button class="size-btn">XL</button>
+                    <button class="size-btn">XXL</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT / OM OSS -->
+    <section class="section section--alt" id="om-oss" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section__header fade-in">
+          <span class="section__tag">Vår historia</span>
+          <h2 id="about-heading" class="section__title">Mode med hjärta och hantverk</h2>
+          <p class="section__subtitle">
+            Belle Martinée grundades med en enkel övertygelse: mode ska vara personligt,
+            hållbart och tillgängligt för alla som vill uttrycka sig genom kläder.
+          </p>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:2rem;margin-top:2rem;">
+          <div class="fade-in" style="text-align:center;padding:2rem;background:white;border-radius:var(--radius);box-shadow:var(--shadow-sm);">
+            <div style="font-size:2.5rem;margin-bottom:1rem;">🌱</div>
+            <h3 style="color:var(--color-primary);margin-bottom:0.75rem;">Hållbarhet</h3>
+            <p style="color:var(--color-gray);font-size:0.95rem;">Vi använder GOTS-certifierade och ekologiska tyger för att minska vår miljöpåverkan – mode med omtanke om planeten.</p>
+          </div>
+          <div class="fade-in" style="text-align:center;padding:2rem;background:white;border-radius:var(--radius);box-shadow:var(--shadow-sm);">
+            <div style="font-size:2.5rem;margin-bottom:1rem;">✂️</div>
+            <h3 style="color:var(--color-primary);margin-bottom:0.75rem;">Hantverk</h3>
+            <p style="color:var(--color-gray);font-size:0.95rem;">Varje plagg genomgår noggrann kvalitetskontroll. Vi använder professionell tryckteknik som håller tvätt efter tvätt.</p>
+          </div>
+          <div class="fade-in" style="text-align:center;padding:2rem;background:white;border-radius:var(--radius);box-shadow:var(--shadow-sm);">
+            <div style="font-size:2.5rem;margin-bottom:1rem;">🤝</div>
+            <h3 style="color:var(--color-primary);margin-bottom:0.75rem;">Kundlöfte</h3>
+            <p style="color:var(--color-gray);font-size:0.95rem;">Vi svarar alltid inom 24 timmar och arbetar tills du är 100&nbsp;% nöjd. Din tillfredsställelse är vår framgång.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <div class="section__header fade-in">
+          <span class="section__tag">Kundrecensioner</span>
+          <h2 id="testimonials-heading" class="section__title">Vad säger våra kunder?</h2>
+        </div>
+        <div class="testimonials__grid">
+          <div class="testimonial-card fade-in">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p class="testimonial-card__text">"Absolut snyggaste hoodies jag ägt! Trycket är skarpt och tyget är otroligt mjukt. Beställde till hela gänget – alla är lyriska."</p>
+            <div class="testimonial-card__author">
+              <div class="author-avatar" style="background:linear-gradient(135deg,#c9a84c,#f5e6b8);color:#1a1a2e">A</div>
+              <div>
+                <p class="author-name">Anna Lindqvist</p>
+                <p class="author-location">Stockholm</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card fade-in">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p class="testimonial-card__text">"Snabb leverans och exakt som på bilden. T-shirts var en perfekt present och kom välförpackade med ett personligt kort."</p>
+            <div class="testimonial-card__author">
+              <div class="author-avatar" style="background:linear-gradient(135deg,#e94560,#ff9aaa)">M</div>
+              <div>
+                <p class="author-name">Marcus Eriksson</p>
+                <p class="author-location">Göteborg</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card fade-in">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p class="testimonial-card__text">"Fantastisk kundservice! De hjälpte mig designa ett perfekt plagg till mitt företagsevent. Resultatet överträffade förväntningarna!"</p>
+            <div class="testimonial-card__author">
+              <div class="author-avatar" style="background:linear-gradient(135deg,#a18cd1,#3a1c71)">S</div>
+              <div>
+                <p class="author-name">Sara Johansson</p>
+                <p class="author-location">Malmö</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter" aria-labelledby="newsletter-heading">
+      <div class="container">
+        <h2 id="newsletter-heading">Håll dig uppdaterad</h2>
+        <p>Prenumerera och få 10&nbsp;% rabatt på din första beställning, exklusiva erbjudanden och stilinspiration direkt i din inkorg.</p>
+        <form id="newsletter-form" class="newsletter__form" novalidate aria-label="Nyhetsbrev-formulär">
+          <label for="newsletter-email" class="sr-only">E-postadress</label>
+          <input
+            type="email"
+            id="newsletter-email"
+            class="newsletter__input"
+            placeholder="din@email.se"
+            required
+            autocomplete="email"
+            aria-label="Din e-postadress"
+          />
+          <button type="submit" class="newsletter__submit">Prenumerera</button>
+        </form>
+        <p class="newsletter__disclaimer">
+          Genom att prenumerera godkänner du vår <a href="privacy-policy.html">integritetspolicy</a>.
+          Vi delar aldrig din e-post med tredje part. Avregistrera dig när som helst.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================
+       FOOTER
+       ============================ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+
+        <div class="footer__brand">
+          <h3>Belle<span>Martinée</span></h3>
+          <p>Din partner för unika, skräddarsydda kläder. Vi skapar plagg med passion för mode, hållbarhet och din personliga stil.</p>
+          <div class="footer__social">
+            <a href="#" class="social-link" aria-label="Instagram">📷</a>
+            <a href="#" class="social-link" aria-label="Facebook">👥</a>
+            <a href="#" class="social-link" aria-label="Pinterest">📌</a>
+            <a href="#" class="social-link" aria-label="TikTok">🎵</a>
+          </div>
+        </div>
+
+        <div class="footer__col">
+          <h4>Kollektionen</h4>
+          <ul class="footer__links">
+            <li><a href="#kollektionen">T-shirts</a></li>
+            <li><a href="#kollektionen">Hoodies</a></li>
+            <li><a href="#kollektionen">Sweatshirts</a></li>
+            <li><a href="#kollektionen">Byxor &amp; Jackor</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Information</h4>
+          <ul class="footer__links">
+            <li><a href="terms.html">Köpvillkor &amp; Ångerrätt</a></li>
+            <li><a href="privacy-policy.html">Integritetspolicy (GDPR)</a></li>
+            <li><a href="cookies.html">Cookiepolicy</a></li>
+            <li><a href="contact.html">Kontakta oss</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Kontakt</h4>
+          <div class="footer__contact-item">
+            <span class="icon">📧</span>
+            <span>info@bellemartinee.se</span>
+          </div>
+          <div class="footer__contact-item">
+            <span class="icon">📞</span>
+            <span>08-123 456 78</span>
+          </div>
+          <div class="footer__contact-item">
+            <span class="icon">📍</span>
+            <span>Modegatan 8<br />123 45 Stockholm</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer__legal-info" role="note" aria-label="Företagsinformation">
+        <strong>Belle Martinée AB</strong> &nbsp;|&nbsp;
+        Org.nr: 556XXX-XXXX &nbsp;|&nbsp;
+        VAT-nr: SE556XXXXXXXX01 &nbsp;|&nbsp;
+        Alla priser anges inklusive 25&nbsp;% moms (mervärdesskatt) enligt Mervärdesskattelagen (ML).
+        Fri frakt vid köp över 500&nbsp;kr. Ångerrätt 14 dagar enligt Distansavtalslagen.
+      </div>
+
+      <hr class="footer__divider" />
+
+      <div class="footer__bottom">
+        <p>© 2025 Belle Martinée AB. Alla rättigheter förbehållna.</p>
+        <nav class="footer__bottom-links" aria-label="Juridiska länkar">
+          <a href="terms.html">Köpvillkor</a>
+          <a href="privacy-policy.html">Integritetspolicy</a>
+          <a href="cookies.html">Cookies</a>
+          <a href="contact.html">Kontakt</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================
+       CART SIDEBAR
+       ============================ -->
+  <div id="cart-overlay" class="cart-overlay" aria-hidden="true"></div>
+  <aside id="cart-sidebar" class="cart-sidebar" aria-label="Varukorg" aria-hidden="true">
+    <div class="cart-sidebar__header">
+      <h3>Din varukorg</h3>
+      <button id="cart-close" class="cart-close" aria-label="Stäng varukorg">✕</button>
+    </div>
+    <div class="cart-sidebar__body">
+      <div class="cart-empty">
+        <span class="cart-empty-icon">🛍️</span>
+        <p>Din varukorg är tom</p>
+      </div>
+    </div>
+    <div class="cart-sidebar__footer">
+      <div class="cart-total">
+        <span>Totalt (inkl. moms)</span>
+        <span>0 kr</span>
+      </div>
+      <p class="cart-vat-note">Inkl. 25% moms. Frakt beräknas i kassan.</p>
+      <p class="cart-withdrawal-note">
+        ℹ️ Du har 14 dagars ångerrätt enligt Distansavtalslagen.
+        Läs mer i våra <a href="terms.html" style="color:var(--color-accent)">köpvillkor</a>.
+      </p>
+      <a href="contact.html" class="btn btn--primary" style="width:100%;justify-content:center;">Gå till kassan →</a>
+    </div>
+  </aside>
+
+  <!-- Toast notification -->
+  <div id="toast" role="alert" aria-live="assertive">
+    <span class="toast-icon">✅</span>
+    <span class="toast-message"></span>
+  </div>
+
+  <style>.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}</style>
+  <script src="js/main.js"></script>
+</body>
+</html>
