@@ -295,12 +295,6 @@ p {
   align-items: center;
 }
 
-.nav__logo-img {
-  height: 52px;
-  width: auto;
-  display: block;
-}
-
 .nav__logo span {
   color: var(--color-accent);
 }
@@ -2096,7 +2090,7 @@ p {
 .about-card {
   text-align: center;
   padding: 2rem;
-  background: var(--color-surface) !important;
+  background: var(--color-surface);
   border-radius: var(--radius);
   box-shadow: var(--shadow-sm);
   border: 1px solid var(--color-border);
@@ -2109,12 +2103,12 @@ p {
 }
 
 .about-card h3 {
-  color: var(--color-accent) !important;
+  color: var(--color-accent);
   margin-bottom: 0.75rem;
 }
 
 .about-card p {
-  color: var(--color-text-muted) !important;
+  color: var(--color-text-muted);
   font-size: 0.95rem;
 }
 
